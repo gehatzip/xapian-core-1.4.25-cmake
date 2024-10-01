@@ -34,6 +34,7 @@
 #include "french.h"
 #include "german.h"
 #include "german2.h"
+#include "greek.h"
 #include "hungarian.h"
 #include "indonesian.h"
 #include "irish.h"

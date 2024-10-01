@@ -83,6 +83,8 @@ stem_internal_factory(const std::string& language, bool fallback)
 		return new InternalStemGerman;
 	    case GERMAN2:
 		return new InternalStemGerman2;
+		case GREEK:
+		return new InternalStemGreek;
 	    case HUNGARIAN:
 		return new InternalStemHungarian;
 	    case INDONESIAN:

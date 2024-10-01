@@ -23,6 +23,7 @@ target_sources(libxapian
 	${CMAKE_CURRENT_LIST_DIR}/french.cc
 	${CMAKE_CURRENT_LIST_DIR}/german2.cc
 	${CMAKE_CURRENT_LIST_DIR}/german.cc
+	${CMAKE_CURRENT_LIST_DIR}/greek.cc
 	${CMAKE_CURRENT_LIST_DIR}/hungarian.cc
 	${CMAKE_CURRENT_LIST_DIR}/indonesian.cc
 	${CMAKE_CURRENT_LIST_DIR}/irish.cc

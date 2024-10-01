@@ -36,23 +36,24 @@ enum sbl_code {
     FRENCH = 10,
     GERMAN = 11,
     GERMAN2 = 12,
-    HUNGARIAN = 13,
-    INDONESIAN = 14,
-    IRISH = 15,
-    ITALIAN = 16,
-    KRAAIJ_POHLMANN = 17,
-    LITHUANIAN = 18,
-    LOVINS = 19,
-    NEPALI = 20,
-    NORWEGIAN = 21,
-    PORTER = 22,
-    PORTUGUESE = 23,
-    ROMANIAN = 24,
-    RUSSIAN = 25,
-    SPANISH = 26,
-    SWEDISH = 27,
-    TAMIL = 28,
-    TURKISH = 29
+    GREEK = 13,
+    HUNGARIAN = 14,
+    INDONESIAN = 15,
+    IRISH = 16,
+    ITALIAN = 17,
+    KRAAIJ_POHLMANN = 18,
+    LITHUANIAN = 19,
+    LOVINS = 20,
+    NEPALI = 21,
+    NORWEGIAN = 22,
+    PORTER = 23,
+    PORTUGUESE = 24,
+    ROMANIAN = 25,
+    RUSSIAN = 26,
+    SPANISH = 27,
+    SWEDISH = 28,
+    TAMIL = 29,
+    TURKISH = 30
 };
 
 static const unsigned char tab[] = {
@@ -70,8 +71,9 @@ static const unsigned char tab[] = {
     (1 - 1),
     KRAAIJ_POHLMANN, 'k','r','a','a','i','j','_','p','o','h','l','m','a','n','n',
 
-    (3 - 1),
+    (4 - 1),
     DUTCH, 'd','u','t','c','h',
+    GREEK, 'g','r','e','e','k',
     IRISH, 'i','r','i','s','h',
     TAMIL, 't','a','m','i','l',
 
@@ -109,7 +111,7 @@ static const unsigned char tab[] = {
     SWEDISH, 's','w','e','d','i','s','h',
     TURKISH, 't','u','r','k','i','s','h',
 
-    (26 - 1),
+    (27 - 1),
     ARABIC, 'a','r',
     CATALAN, 'c','a',
     DANISH, 'd','a',
@@ -120,6 +122,7 @@ static const unsigned char tab[] = {
     FINNISH, 'f','i',
     FRENCH, 'f','r',
     IRISH, 'g','a',
+    GREEK, 'g','r',
     HUNGARIAN, 'h','u',
     ARMENIAN, 'h','y',
     INDONESIAN, 'i','d',
@@ -138,6 +141,6 @@ static const unsigned char tab[] = {
     TURKISH, 't','r'
 };
 
-#define LANGSTRING "arabic armenian basque catalan danish dutch earlyenglish english finnish french german german2 hungarian indonesian irish italian kraaij_pohlmann lithuanian lovins nepali norwegian porter portuguese romanian russian spanish swedish tamil turkish"
+#define LANGSTRING "arabic armenian basque catalan danish dutch earlyenglish english finnish french german german2 greek hungarian indonesian irish italian kraaij_pohlmann lithuanian lovins nepali norwegian porter portuguese romanian russian spanish swedish tamil turkish"
 
 #endif
