@@ -64,3 +64,8 @@ PRIVATE HAVE_DECL_LOG2)
 Remove 'driver.c' from the sources of 'languages/CMakeLists.txt'
 
 cmake --build . --config Release
+
+****************************************************************************************************************************************
+* NOTE: This is the same as 'xapian-core-1.4.25-cmake' but cloned from github ("https://github.com/gehatzip/xapian-core-1.4.25-cmake") *
+* commit changes of 'xapian-core-1.4.25-cmake' also here to sync with github                                                           *
+****************************************************************************************************************************************
